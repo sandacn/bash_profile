@@ -15,4 +15,4 @@ alias cup='cvs update -dP'
 alias cdf='cvs diff' 
 alias cim='cvs ci -m ""'
 
-PATH=$PATH:~/bin
+export PATH=$PATH:~/bin

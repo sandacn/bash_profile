@@ -116,9 +116,6 @@ esac
 #
 ##alias ls="ls --color"
 
-export CVSROOT=thunder2:/CVSROOT
-
-export PATH=$PATH:~/bin
 
 export PS1="\[\e[0;32m\][\e[0;32m\]\u@\e[0;31m\]\h \[\e[0;34m\]\w\e[0;32m\]] $ \[\e[0m\]"
 test -r /sw/bin/init.sh && . /sw/bin/init.sh
